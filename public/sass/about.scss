@@ -1,0 +1,95 @@
+@import 'header.scss';
+
+.aboutContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+.aboutContainer h1{
+    padding-top: 80px;
+    text-align: center;
+}
+.aboutContainer p{
+    margin-top: 30px;
+}
+.aboutContainer .aboutContentContainer{
+    display: flex;
+    flex-direction: row;
+}
+.titleBanner{
+    height: 2px;
+    background-color: black;
+    width: 5%;
+    margin:0 auto;
+    animation: BannerSpinner 1s infinite alternate;
+}
+.contentAbout{
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentAbout p{
+    width: 60%;
+}
+.contentAbout button{
+    margin-top: 50px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    background-color: $principalCollor;
+    color: white;
+    border-radius: 10px;
+}
+.contentAbout button img{
+    margin-left: 15px;
+}
+.aboutCardContainer{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.aboutCardContainer img{
+    width: 300px;
+    animation: animate-image 3s infinite alternate;
+}
+.cardInformationContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardInformationContainer div{
+    margin: 0px 20px;
+}
+.cardInformationContainer .aboutInfoTitle{
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.cardInformationContainer .aboutInfoName{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+@keyframes BannerSpinner{
+    0%{
+        width: 5%;
+    }
+    100%{
+        width: 0%;
+    }
+}

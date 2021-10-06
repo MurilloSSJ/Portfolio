@@ -1,0 +1,27 @@
+.containerNavMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.containerNavMenu h2{
+    color: #39a1ff;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+.navMenu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    min-height: 10vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+.navMenu li{
+    padding: 10px 30px;
+}

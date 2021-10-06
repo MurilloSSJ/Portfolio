@@ -1,0 +1,252 @@
+/* line 1, ../../../../github/Portfolio/public/sass/styless.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, ../../../../github/Portfolio/public/sass/styless.scss */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem; }
+
+/* line 9, ../../../../github/Portfolio/public/sass/styless.scss */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem; }
+
+/* line 13, ../../../../github/Portfolio/public/sass/styless.scss */
+h1 span {
+  color: #39a1ff; }
+
+/* line 16, ../../../../github/Portfolio/public/sass/styless.scss */
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem; }
+
+/* line 20, ../../../../github/Portfolio/public/sass/styless.scss */
+a {
+  text-decoration: none; }
+
+/* line 1, ../../../../github/Portfolio/public/sass/navMenu.scss */
+.containerNavMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: absolute; }
+
+/* line 9, ../../../../github/Portfolio/public/sass/navMenu.scss */
+.containerNavMenu h2 {
+  color: #39a1ff;
+  width: 30%;
+  font-family: 'Poppins', sans-serif; }
+
+/* line 14, ../../../../github/Portfolio/public/sass/navMenu.scss */
+.navMenu {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  min-height: 10vh;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem; }
+
+/* line 25, ../../../../github/Portfolio/public/sass/navMenu.scss */
+.navMenu li {
+  padding: 10px 30px; }
+
+/* line 2, ../../../../github/Portfolio/public/sass/header.scss */
+.Heaven {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+/* line 11, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 50%;
+  color: #150035;
+  font-family: 'Poppins', sans-serif;
+  text-align: left; }
+
+/* line 21, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent h1 {
+  font-size: 2.5rem; }
+
+/* line 24, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent h2 {
+  font-weight: 400;
+  color: #150035b6;
+  font-size: 1.6rem; }
+
+/* line 29, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent h2::after {
+  content: '|';
+  margin-left: 5px;
+  animation: piscMouse 0.5s infinite alternate; }
+
+@keyframes piscMouse {
+  0%, 100% {
+    opacity: 1; }
+  50% {
+    opacity: 0; } }
+
+/* line 44, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 10px  10%;
+  width: fit-content;
+  border-radius: 10px;
+  border: none;
+  background-color: #39a1ff;
+  color: #f8f8ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+/* line 58, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent button img {
+  width: 32px;
+  padding-left: 10px; }
+
+/* line 62, ../../../../github/Portfolio/public/sass/header.scss */
+.headerTextContent button:hover {
+  box-shadow: 0px 0px 30px #39a1ff;
+  cursor: pointer; }
+
+/* line 66, ../../../../github/Portfolio/public/sass/header.scss */
+.headerImageContainer {
+  padding-top: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: center; }
+
+/* line 72, ../../../../github/Portfolio/public/sass/header.scss */
+.Heaven .headerImageContainer img {
+  width: 500px;
+  animation: animate-image 2s infinite alternate; }
+
+@keyframes animate-image {
+  0% {
+    transform: translateY(-50px); }
+  100% {
+    transform: translateY(0); } }
+
+/* line 3, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  justify-content: center; }
+
+/* line 11, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutContainer h1 {
+  padding-top: 80px;
+  text-align: center; }
+
+/* line 15, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutContainer p {
+  margin-top: 30px; }
+
+/* line 18, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutContainer .aboutContentContainer {
+  display: flex;
+  flex-direction: row; }
+
+/* line 22, ../../../../github/Portfolio/public/sass/about.scss */
+.titleBanner {
+  height: 2px;
+  background-color: black;
+  width: 5%;
+  margin: 0 auto;
+  animation: BannerSpinner 1s infinite alternate; }
+
+/* line 29, ../../../../github/Portfolio/public/sass/about.scss */
+.contentAbout {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+/* line 37, ../../../../github/Portfolio/public/sass/about.scss */
+.contentAbout p {
+  width: 60%; }
+
+/* line 40, ../../../../github/Portfolio/public/sass/about.scss */
+.contentAbout button {
+  margin-top: 50px;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  border: none;
+  background-color: #39a1ff;
+  color: white;
+  border-radius: 10px; }
+
+/* line 53, ../../../../github/Portfolio/public/sass/about.scss */
+.contentAbout button img {
+  margin-left: 15px; }
+
+/* line 56, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutCardContainer {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+/* line 64, ../../../../github/Portfolio/public/sass/about.scss */
+.aboutCardContainer img {
+  width: 300px;
+  animation: animate-image 3s infinite alternate; }
+
+/* line 68, ../../../../github/Portfolio/public/sass/about.scss */
+.cardInformationContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+/* line 74, ../../../../github/Portfolio/public/sass/about.scss */
+.cardInformationContainer div {
+  margin: 0px 20px; }
+
+/* line 77, ../../../../github/Portfolio/public/sass/about.scss */
+.cardInformationContainer .aboutInfoTitle {
+  display: block;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; }
+
+/* line 83, ../../../../github/Portfolio/public/sass/about.scss */
+.cardInformationContainer .aboutInfoName {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+@keyframes BannerSpinner {
+  0% {
+    width: 5%; }
+  100% {
+    width: 0%; } }
+
+/*# sourceMappingURL=styless.css.map */
