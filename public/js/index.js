@@ -1,3 +1,5 @@
+/* FUNÇÃO DE SCRIPT NO HEADER*/
+
 function typeWriter(event,phrases){
     if(event.innerHTML === ""){
         const textArray = phrases[0].split('')
@@ -41,3 +43,27 @@ const phraseElementDOOM = document.querySelector("#phraseEditor")
 typeWriter(phraseElementDOOM,phraseHeader)
 window.setInterval(()=>{
     typeWriter(phraseElementDOOM,phraseHeader)},6000)
+
+
+/*ALTERNATE BODY SKILLS */
+const skills = document.querySelectorAll(".skillsHeader")
+
+skills.forEach((element)=>{
+    element.addEventListener('click',(e)=>{
+        const bodySkills = element.parentNode.childNodes[3];
+        const arrow = element.childNodes[5].childNodes[3];
+        if(bodySkills.classList.contains("closeSkills")){
+            arrow.classList.add('arrowTransform')
+            bodySkills.classList.add('openSkills')
+            bodySkills.classList.remove('closeSkills')
+        }else if(bodySkills.classList.contains('openSkills')){
+            arrow.classList.remove('arrowTransform')
+            bodySkills.classList.add('closeSkills')
+            bodySkills.classList.remove('openSkills')
+        }else{
+            console.log('entrou')
+            bodySkills.classList.add('openSkills')
+            console.log(bodySkills)
+        }
+    })
+})

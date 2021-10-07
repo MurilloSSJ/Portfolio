@@ -91,23 +91,25 @@
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 100px; }
 
-/* line 11, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 12, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer h1 {
-  padding-top: 80px;
-  text-align: center; }
+  text-align: center;
+  color: #150035; }
 
-/* line 15, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 16, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer p {
   margin-top: 30px; }
 
-/* line 18, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 19, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer .aboutContentContainer {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-top: 100px; }
 
-/* line 22, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 24, ../../../../github/Portfolio/public/sass/about.scss */
 .titleBanner {
   height: 2px;
   background-color: black;
@@ -115,7 +117,7 @@
   margin: 0 auto;
   animation: BannerSpinner 1s infinite alternate; }
 
-/* line 29, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 31, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout {
   margin-top: 50px;
   width: 60%;
@@ -124,11 +126,11 @@
   align-items: center;
   justify-content: center; }
 
-/* line 37, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 39, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout p {
   width: 60%; }
 
-/* line 40, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 42, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button {
   margin-top: 50px;
   padding: 10px 50px;
@@ -142,11 +144,11 @@
   color: white;
   border-radius: 10px; }
 
-/* line 53, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 55, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button img {
   margin-left: 15px; }
 
-/* line 56, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 58, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer {
   margin-top: 50px;
   width: 50%;
@@ -155,30 +157,31 @@
   align-items: center;
   justify-content: center; }
 
-/* line 64, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 66, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer img {
-  width: 300px;
+  width: 400px;
   animation: animate-image 3s infinite alternate; }
 
-/* line 68, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 70, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
 
-/* line 74, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 76, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer div {
   margin: 0px 20px; }
 
-/* line 77, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 79, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoTitle {
+  color: #39a1ff;
   display: block;
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600; }
 
-/* line 83, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 86, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoName {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;

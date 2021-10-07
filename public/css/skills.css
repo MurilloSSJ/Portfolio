@@ -1,0 +1,82 @@
+/* line 1, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center; }
+  /* line 8, ../../../../github/Portfolio/public/sass/skills.scss */
+  .subContainerSkills .containerSkills {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center; }
+    /* line 13, ../../../../github/Portfolio/public/sass/skills.scss */
+    .subContainerSkills .containerSkills .skillsHeader {
+      width: 250px; }
+      /* line 14, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsHeader .arrowTransform {
+        transform: rotate(-180deg); }
+      /* line 18, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsHeader .iconSkillsInline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        /* line 22, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsHeader .iconSkillsInline img {
+          transition: .4s; }
+      /* line 26, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsHeader img {
+        width: 32px;
+        display: inline-block; }
+      /* line 29, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsHeader span {
+        display: inline-block; }
+    /* line 33, ../../../../github/Portfolio/public/sass/skills.scss */
+    .subContainerSkills .containerSkills .openSkills {
+      height: max-content;
+      margin-bottom: 30px; }
+    /* line 37, ../../../../github/Portfolio/public/sass/skills.scss */
+    .subContainerSkills .containerSkills .closeSkills {
+      height: 0;
+      overflow: hidden; }
+    /* line 41, ../../../../github/Portfolio/public/sass/skills.scss */
+    .subContainerSkills .containerSkills .skillsBody {
+      transition: 0.5s; }
+      /* line 44, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar {
+        background-color: #a3d4ff;
+        border-radius: .25rem; }
+        /* line 47, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .skillsPercentBar {
+          height: 5px;
+          border-radius: .25rem;
+          display: block;
+          background-color: #39a1ff; }
+        /* line 53, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .htmlBar {
+          width: 90%; }
+        /* line 56, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .jsBar {
+          width: 80%; }
+        /* line 59, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .reactBar {
+          width: 50%; }
+        /* line 62, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .nodeBar {
+          width: 60%; }
+        /* line 65, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .expressBar {
+          width: 80%; }
+        /* line 68, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .mongoBar {
+          width: 70%; }
+        /* line 71, ../../../../github/Portfolio/public/sass/skills.scss */
+        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .illustratorBar {
+          width: 20%; }
+      /* line 75, ../../../../github/Portfolio/public/sass/skills.scss */
+      .subContainerSkills .containerSkills .skillsBody .skillsData .skillsStats {
+        width: 250px; }
+
+/*# sourceMappingURL=skills.css.map */

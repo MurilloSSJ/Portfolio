@@ -8,7 +8,8 @@ h1{
 }
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    color:#150035;
 }
 h1 span{
     color: #39a1ff
@@ -20,5 +21,12 @@ p{
 a{
     text-decoration: none;
 }
+span{
+    font-family: 'Roboto Slab', serif; 
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
 @import 'navMenu.scss';
-@import 'about.scss'
+@import 'about.scss';
+@import 'skills.scss';

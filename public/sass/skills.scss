@@ -1,0 +1,81 @@
+.subContainerSkills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    .containerSkills{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        .skillsHeader{
+            .arrowTransform{
+                transform: rotate(-180deg);
+            }
+            width: 250px;
+            .iconSkillsInline{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
+                img{
+                    transition: .4s;
+                }
+            }
+            img{
+                width: 32px;
+                display: inline-block;
+            }span{
+                display: inline-block;
+            }
+        }
+        .openSkills{
+            height: max-content;
+            margin-bottom: 30px;
+        }
+        .closeSkills{
+            height: 0;
+            overflow: hidden;
+        }
+        .skillsBody{
+            transition: 0.5s;
+            .skillsData{
+                .skillsBar{
+                    background-color: #a3d4ff;
+                    border-radius: .25rem;
+                    .skillsPercentBar{
+                        height: 5px;
+                        border-radius: .25rem;
+                        display: block;
+                        background-color:#39a1ff;
+                    }
+                    .htmlBar{
+                        width: 90%;
+                    }
+                    .jsBar{
+                        width: 80%;
+                    }
+                    .reactBar{
+                        width: 50%;
+                    }
+                    .nodeBar{
+                        width: 60%;
+                    }
+                    .expressBar{
+                        width: 80%;
+                    }
+                    .mongoBar{
+                        width: 70%;
+                    }
+                    .illustratorBar{
+                        width: 20%;
+                    }
+                }
+                .skillsStats{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
