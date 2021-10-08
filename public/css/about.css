@@ -86,30 +86,31 @@
 
 /* line 3, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer {
+  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
   justify-content: center;
-  margin-bottom: 100px; }
+  margin-bottom: 30px; }
 
-/* line 12, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 14, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer h1 {
   text-align: center;
   color: #150035; }
 
-/* line 16, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 18, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer p {
   margin-top: 30px; }
 
-/* line 19, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 21, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer .aboutContentContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 100px; }
+  margin-top: 50px; }
 
-/* line 24, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 26, ../../../../github/Portfolio/public/sass/about.scss */
 .titleBanner {
   height: 2px;
   background-color: black;
@@ -117,7 +118,7 @@
   margin: 0 auto;
   animation: BannerSpinner 1s infinite alternate; }
 
-/* line 31, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 33, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout {
   margin-top: 50px;
   width: 60%;
@@ -125,18 +126,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  /* line 40, ../../../../github/Portfolio/public/sass/about.scss */
+  .contentAbout .imgAboutPerfil {
+    width: 150px;
+    animation: animate-image 3s infinite alternate; }
 
-/* line 39, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 45, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout p {
   width: 60%; }
 
-/* line 42, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 48, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button {
   margin-top: 50px;
   padding: 10px 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   border: none;
@@ -144,11 +150,12 @@
   color: white;
   border-radius: 10px; }
 
-/* line 55, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 62, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button img {
+  width: 32px;
   margin-left: 15px; }
 
-/* line 58, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 66, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer {
   margin-top: 50px;
   width: 50%;
@@ -157,23 +164,23 @@
   align-items: center;
   justify-content: center; }
 
-/* line 66, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 74, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer img {
-  width: 400px;
-  animation: animate-image 3s infinite alternate; }
+  width: 350px;
+  border-radius: 15px; }
 
-/* line 70, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 78, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
 
-/* line 76, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 84, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer div {
   margin: 0px 20px; }
 
-/* line 79, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 87, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoTitle {
   color: #39a1ff;
   display: block;
@@ -181,7 +188,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600; }
 
-/* line 86, ../../../../github/Portfolio/public/sass/about.scss */
+/* line 94, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoName {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;

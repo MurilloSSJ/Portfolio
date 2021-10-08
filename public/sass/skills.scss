@@ -1,6 +1,16 @@
+.aboutContainer{
+    p{
+        margin: 5px 0px;
+        margin-bottom: 15px;
+        color: #150035;
+    }
+}
+.skillsContainer{
+    min-height: max-content;
+}
 .subContainerSkills{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -14,7 +24,8 @@
             .arrowTransform{
                 transform: rotate(-180deg);
             }
-            width: 250px;
+            width: 350px;
+            padding: 30px;
             .iconSkillsInline{
                 display: flex;
                 flex-direction: row;
@@ -30,16 +41,14 @@
                 display: inline-block;
             }
         }
-        .openSkills{
-            height: max-content;
-            margin-bottom: 30px;
-        }
-        .closeSkills{
-            height: 0;
-            overflow: hidden;
+        .skillsHeader:hover{
+            background-color: #f8f8ff;
+            cursor: pointer;
         }
         .skillsBody{
-            transition: 0.5s;
+            overflow:hidden;
+            max-height: max-content;
+            transition: max-height 1s ease-in-out;
             .skillsData{
                 .skillsBar{
                     background-color: #a3d4ff;
@@ -76,6 +85,10 @@
                     width: 250px;
                 }
             }
+        }
+        .closeSkills{
+            max-height: 0!important;
+            pointer-events: none;
         }
     }
 }

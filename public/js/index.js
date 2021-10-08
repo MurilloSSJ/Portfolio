@@ -54,16 +54,10 @@ skills.forEach((element)=>{
         const arrow = element.childNodes[5].childNodes[3];
         if(bodySkills.classList.contains("closeSkills")){
             arrow.classList.add('arrowTransform')
-            bodySkills.classList.add('openSkills')
             bodySkills.classList.remove('closeSkills')
-        }else if(bodySkills.classList.contains('openSkills')){
-            arrow.classList.remove('arrowTransform')
-            bodySkills.classList.add('closeSkills')
-            bodySkills.classList.remove('openSkills')
         }else{
-            console.log('entrou')
-            bodySkills.classList.add('openSkills')
-            console.log(bodySkills)
+            arrow.classList.remove("arrowTransform")
+            bodySkills.classList.add('closeSkills')
         }
     })
 })
