@@ -25,11 +25,10 @@
     <div class="containerNavMenu">
         <h2>Murillo Santhiago</h2>
         <ul class="navMenu">
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <a href="#about"><li>Sobre</li></a>
+            <a href="#skills"><li>Habilidades</li></a>
+            <a href="#services"><li>Serviços</li></a>
+            <a href="#contact"><li>Contato</li></a>
         </ul>
     </div>
 
@@ -46,9 +45,9 @@
     </div>
 
     <!--About-->
-    <section class="aboutContainer">
-        <h1>About <span>Me</span></h1>
-        <p>Who am I?</p>
+    <section class="aboutContainer" id="about">
+        <h1>Sobre <span>Mim</span></h1>
+        <p>Quem eu sou?</p>
         <div class="titleBanner"></div>
         <div class="aboutContentContainer">
             <div class="aboutCardContainer">
@@ -57,23 +56,23 @@
             <div class="contentAbout">
                 <img src="./public/img/image about.png" alt="" class="imgAboutPerfil">
                 <h2>Hello there</h2>
-                <p>Hi, Welcome to my portfolio. In this section let's approach about of some topics related for me.
+                <p>Olá, bem vindo ao meu portfólio pessoal, nesse tópico, espero que me conheça um pouco melhor, e veja alguns números que possuo.
                     
-                As I said before, my name is Murillo Santhiago, and I am a graduate student of the Computer Science course at Universidade Federal de Viçosa
+                Como eu disse antes, meu nome é Murillo Santhiago, e eu sou um estudante de Ciência da Computação na Universidade Federal de Viçosa, e atualmente trabalho no laboratório de pesquisa da UFV, o NESPeD
                 </p>
                 <div class="cardInformationContainer">
                     <div>
                         <span class="aboutInfoTitle">02+</span>
-                        <span class="aboutInfoName">Years <br> experience</span>
+                        <span class="aboutInfoName">Anos <br> de experiência</span>
                     </div>
 
                     <div>
                         <span class="aboutInfoTitle">10+</span>
-                        <span class="aboutInfoName">Completed <br> project</span>
+                        <span class="aboutInfoName">Projetos <br> completos</span>
                     </div>
                     <div>
                         <span class="aboutInfoTitle">02+</span>
-                        <span class="aboutInfoName">Companies <br> worked</span>
+                        <span class="aboutInfoName">Empresas <br> trabalhadas</span>
                     </div>
                 </div>
                 <a href="./public/pdf/Currículo.pdf"><button>Download CV <img src="./public/img/download.png" alt=""></button></a>
@@ -82,9 +81,9 @@
     </section>
 
     <!--SKILLS-->
-    <section class="aboutContainer skillsContainer">
-        <h1>My <span>Skills</span></h1>
-        <p>What are my skills?</p>
+    <section class="aboutContainer skillsContainer" id="skills">
+        <h1>Minhas <span>Habilidades</span></h1>
+        <p>O que eu sei?</p>
         <div class="titleBanner"></div>
         <div class="subContainerSkills">
             <div class="containerSkills">
@@ -92,7 +91,7 @@
                     <img src="./public/img/crop-alt.svg" alt="">
                     <h2><span>Front End</span> Developer</h2>
                     <div class="iconSkillsInline">
-                        <span>More than 3 years</span>
+                        <span>A mais de 3 anos</span>
                         <img src="./public/img/angle-double-down.svg" alt="">
                     </div>
                 </div>
@@ -140,7 +139,7 @@
                     <img src="./public/img/database.svg" alt="">
                     <h2><span>Back End</span> Developer</h2>
                     <div class="iconSkillsInline">
-                        <span>Experience API construction</span>
+                        <span>Experiência em API's</span>
                         <img src="./public/img/angle-double-down.svg" alt="">
                     </div>
                 </div>
@@ -188,9 +187,9 @@
             <div class="containerSkills">
                 <div class="skillsHeader">
                     <img src="./public/img/brackets-curly.svg" alt="">
-                    <h2>Languages</h2>
+                    <h2>Linguagens de Programação</h2>
                     <div class="iconSkillsInline">
-                        <span>More than 3 years</span>
+                        <span>4 anos programando</span>
                         <img src="./public/img/angle-double-down.svg" alt="">
                     </div>
                 </div>
@@ -229,7 +228,7 @@
                     <img src="./public/img/brush-alt.svg" alt="">
                     <h2>Design</h2>
                     <div class="iconSkillsInline">
-                        <span>Initial Level</span>
+                        <span>Designer Iniciante</span>
                         <img src="./public/img/angle-double-down.svg" alt="" class="arrowDownSkills">
                     </div>
                 </div>
@@ -274,7 +273,122 @@
             </div>
         </div>
     </section>
+    <section class="qualificationSection">
+        <div class="controllerQualifications">
+            <div id="workController">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32px">
+                    <path fill="#39A1FF" d="M19,6.5H16v-1a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v1H5a3,3,0,0,0-3,3v9a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3v-9A3,3,0,0,0,19,6.5Zm-9-1a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1v1H10Zm10,13a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V13.45H7V14.5a1,1,0,0,0,2,0V13.45h6V14.5a1,1,0,0,0,2,0V13.45h3Zm0-7H4V9.5a1,1,0,0,1,1-1H19a1,1,0,0,1,1,1Z"/>
+                </svg>
+                Carreira Profissional
+            </div>
+            <div class="activeControllerQualification" id="educationController">
+                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" width="32px">
+                    <path fill="#39A1FF" d="M21.49,10.19l-1-.55h0l-9-5-.11,0a1.06,1.06,0,0,0-.19-.06l-.19,0-.18,0a1.17,1.17,0,0,0-.2.06l-.11,0-9,5a1,1,0,0,0,0,1.74L4,12.76V17.5a3,3,0,0,0,3,3h8a3,3,0,0,0,3-3V12.76l2-1.12V14.5a1,1,0,0,0,2,0V11.06A1,1,0,0,0,21.49,10.19ZM16,17.5a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V13.87l4.51,2.5.15.06.09,0a1,1,0,0,0,.25,0h0a1,1,0,0,0,.25,0l.09,0a.47.47,0,0,0,.15-.06L16,13.87Zm-5-3.14L4.06,10.5,11,6.64l6.94,3.86Z"/>
+                </svg>
+                Educação
+            </div>
+        </div>
+        <div class="containerQualification dataActive">
+            <div class="contentQualificationData">
+                <div>
+                    <h3>Técnico em Eletrônica</h3>
+                    <span>SENAI</span>
+                </div>
+                <div>
+                    <span class="qualificationCircle"></span>
+                    <span class="qualificationLine"></span>
+                </div>
+            </div>
+            <div class="contentQualificationData invertData">
+                <div></div>
+                <div>
+                    <span class="qualificationCircle"></span>
+                </div>
+                <div>
+                    <h3>Ciência da Computação</h3>
+                    <span>Universidade Federal de Viçosa</span>
+                </div>
+            </div>
+        </div>
+        <div class="containerQualification">
+            <div class="contentQualificationData">
+                <div>
+                    <h3>Software Developer</h3>
+                    <span>Setapp Soluções Computacionais</span>
+                </div>
+                <div>
+                    <span class="qualificationCircle"></span>
+                    <span class="qualificationLine"></span>
+                </div>
+            </div>
+            <div class="contentQualificationData invertData">
+                <div></div>
+                <div>
+                    <span class="qualificationCircle"></span>
+                    <span class="qualificationLine"></span>
+                </div>
+                <div>
+                    <h3>Menor Aprendiz</h3>
+                    <span>Unidata Automação</span>
+                </div>
+            </div>
+            <div class="contentQualificationData">
+                <div>
+                    <h3>Iniciação Científica</h3>
+                    <span>NESPeD</span>
+                </div>
+                <div>
+                    <span class="qualificationCircle"></span>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!--SERVICES-->
+    <section class="containerServices" id="services">
+        <h1><span>Serviços</span> Prestados</h1>
+        <p class="subtitle">O que eu faço?</p>
+        <div class="titleBanner"></div>
+        <div class="containerContentServices">
+            <div class="contentServices">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="#39A1FF" d="M9.71,6.29a1,1,0,0,0-1.42,0l-5,5a1,1,0,0,0,0,1.42l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L5.41,12l4.3-4.29A1,1,0,0,0,9.71,6.29Zm11,5-5-5a1,1,0,0,0-1.42,1.42L18.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5A1,1,0,0,0,20.71,11.29Z"/>
+                </svg>
+                <h3>Software Developer</h3>
+                <p>Atuo na construção de softwares suprindo as necessidades do cliente, fazendo um produto único, funcional, e direcionado para você!</p>
+            </div>
+            <div class="contentServices">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="#39A1FF" d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V10H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,8H18V7a1,1,0,0,0-2,0V8H14V7a1,1,0,0,0-2,0V8H10V7A1,1,0,0,0,8,7V8H7a1,1,0,0,0,0,2H8v2H7a1,1,0,0,0,0,2H8v2H7a1,1,0,0,0,0,2H8v2H4V4H20Z"/>
+                </svg>
+                <h3>Mockup</h3>
+                <p>Precisa da parte visual de um app, ou de um website? Pois também ofereço esse tipo de serviço, construindo um design para a sua persona.</p>
+            </div>
+            <div class="contentServices">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="#39A1FF" d="M19,2H9A3,3,0,0,0,6,5V6H5A3,3,0,0,0,2,9V19a3,3,0,0,0,3,3H15a3,3,0,0,0,3-3V18h1a3,3,0,0,0,3-3V5A3,3,0,0,0,19,2ZM16,19a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H16Zm0-9H4V9A1,1,0,0,1,5,8H15a1,1,0,0,1,1,1Zm4,5a1,1,0,0,1-1,1H18V9a3,3,0,0,0-.18-1H20Zm0-9H8V5A1,1,0,0,1,9,4H19a1,1,0,0,1,1,1Z"/>
+                </svg>
+                <h3>Desenvolvimento Web</h3>
+                <p>Precisa de uma landing page, de um site institucional para o seu negócio, ou até mesmo de uma loja virtual? Também presto este tipo de serviço!</p>
+            </div>
+        </div>
+        <div class="contactMe" id="contact">
+            <div class="textContactMe">
+                <h2>Gostou do que viu? Entre em contato</h2>
+                <p>Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    <button>Entrar em contato</button>
+            </div>
+            <div class="imageContact">
+                <img src="./public/img/cellphone.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <div class="footer">
+        <a href="https://www.github.com/MurilloSSJ"><p class="copyright">Murillo Santhiago&copy</p></a>
+        <p>Este site foi desenvolvido com <span class="jsCopy">Javascript</span>, <span class="htmlCopy">HTML</span> e <span class="sassCopy">SASS</span></p>
+    </div>
     <!--JavaScript Files-->
     <script src="./public/js/index.js"></script>
 </body>

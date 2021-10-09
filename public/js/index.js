@@ -61,3 +61,25 @@ skills.forEach((element)=>{
         }
     })
 })
+
+
+/*QUALIFICATIONS*/
+const worksSection = document.querySelector("#workController")
+const graduationSection = document.querySelector("#educationController")
+const containerQualifications = document.querySelectorAll(".containerQualification")
+worksSection.addEventListener("click",(e)=>{
+    if(worksSection.classList.contains("activeControllerQualification")===false){
+        graduationSection.classList.remove("activeControllerQualification")
+        worksSection.classList.add("activeControllerQualification")
+        containerQualifications[0].classList.remove("dataActive")
+        containerQualifications[1].classList.add("dataActive")
+    }
+})
+graduationSection.addEventListener("click",(e)=>{
+    if(graduationSection.classList.contains("activeControllerQualification")===false){
+        worksSection.classList.remove("activeControllerQualification")
+        graduationSection.classList.add("activeControllerQualification")
+        containerQualifications[1].classList.remove("dataActive")
+        containerQualifications[0].classList.add("dataActive")
+    }
+})

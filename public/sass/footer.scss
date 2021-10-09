@@ -1,0 +1,27 @@
+.footer{
+    background-color: #f8f8ff;
+    text-align: center;
+    p{
+        padding: 10px;
+    }
+    .copyright{
+        color: #39a1ff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+    .jsCopy{
+        color:#efd81d;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    .htmlCopy{
+        color: #dc4d25;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    .sassCopy{
+        color: #c76395;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+}

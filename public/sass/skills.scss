@@ -92,3 +92,74 @@
         }
     }
 }
+.qualificationSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .containerQualification{
+        display: none;
+    }
+    .controllerQualifications{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        svg{
+            margin-right: 10px;
+            width: 32px;
+        }
+        font-family: 'Poppins', sans-serif;
+        div{
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 70px;
+            font-size: 1rem;
+        }
+        div:hover{
+            cursor: pointer;
+            color: #39a1ff;
+        }
+        .activeControllerQualification{
+            border-radius: 10px;
+            background: #39a1ff;
+            color: white;
+            svg{
+                path{
+                    fill: #f8f8ff;
+                }
+            }
+            pointer-events: none;
+        }
+    }
+    .contentQualificationData{
+        text-align: right;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        column-gap: 1.5rem;
+        .qualificationCircle{
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            background-color: #39a1ff;
+            border-radius: 50%;
+        }
+        .qualificationLine{
+            display: block;
+            width: 1px;
+            height: 100%;
+            background-color: #39a1ff;
+            transform: translate(6px,-7px);
+        }
+    }
+    .invertData{
+        text-align: left;
+    }
+    .dataActive{
+        display: block;
+        margin-bottom: 50px;
+    }
+}

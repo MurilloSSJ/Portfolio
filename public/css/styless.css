@@ -28,13 +28,14 @@ p {
 
 /* line 24, ../../../../github/Portfolio/public/sass/styless.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: currentColor; }
 
-/* line 27, ../../../../github/Portfolio/public/sass/styless.scss */
+/* line 28, ../../../../github/Portfolio/public/sass/styless.scss */
 span {
   font-family: 'Roboto Slab', serif; }
 
-/* line 30, ../../../../github/Portfolio/public/sass/styless.scss */
+/* line 31, ../../../../github/Portfolio/public/sass/styless.scss */
 h3 {
   font-family: 'Poppins', sans-serif; }
 
@@ -364,5 +365,178 @@ h3 {
     .subContainerSkills .containerSkills .closeSkills {
       max-height: 0 !important;
       pointer-events: none; }
+
+/* line 95, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  /* line 99, ../../../../github/Portfolio/public/sass/skills.scss */
+  .qualificationSection .containerQualification {
+    display: none; }
+  /* line 102, ../../../../github/Portfolio/public/sass/skills.scss */
+  .qualificationSection .controllerQualifications {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; }
+    /* line 107, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .controllerQualifications svg {
+      margin-right: 10px;
+      width: 32px; }
+    /* line 112, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .controllerQualifications div {
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 70px;
+      font-size: 1rem; }
+    /* line 122, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .controllerQualifications div:hover {
+      cursor: pointer;
+      color: #39a1ff; }
+    /* line 126, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .controllerQualifications .activeControllerQualification {
+      border-radius: 10px;
+      background: #39a1ff;
+      color: white;
+      pointer-events: none; }
+      /* line 131, ../../../../github/Portfolio/public/sass/skills.scss */
+      .qualificationSection .controllerQualifications .activeControllerQualification svg path {
+        fill: #f8f8ff; }
+  /* line 138, ../../../../github/Portfolio/public/sass/skills.scss */
+  .qualificationSection .contentQualificationData {
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem; }
+    /* line 143, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .contentQualificationData .qualificationCircle {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background-color: #39a1ff;
+      border-radius: 50%; }
+    /* line 150, ../../../../github/Portfolio/public/sass/skills.scss */
+    .qualificationSection .contentQualificationData .qualificationLine {
+      display: block;
+      width: 1px;
+      height: 100%;
+      background-color: #39a1ff;
+      transform: translate(6px, -7px); }
+  /* line 158, ../../../../github/Portfolio/public/sass/skills.scss */
+  .qualificationSection .invertData {
+    text-align: left; }
+  /* line 161, ../../../../github/Portfolio/public/sass/skills.scss */
+  .qualificationSection .dataActive {
+    display: block;
+    margin-bottom: 50px; }
+
+/* line 1, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices {
+  min-height: 100vh;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  /* line 7, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .subtitle {
+    margin: 10px 0px; }
+  /* line 10, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .containerContentServices {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    /* line 16, ../../../../github/Portfolio/public/sass/services.scss */
+    .containerServices .containerContentServices .contentServices {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      /* line 22, ../../../../github/Portfolio/public/sass/services.scss */
+      .containerServices .containerContentServices .contentServices svg {
+        width: 32px; }
+  /* line 27, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: max-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #39a1ff;
+    border-radius: 10px;
+    margin-bottom: 150px; }
+    /* line 39, ../../../../github/Portfolio/public/sass/services.scss */
+    .containerServices .contactMe .textContactMe {
+      width: 70%;
+      text-align: justify;
+      color: white; }
+      /* line 43, ../../../../github/Portfolio/public/sass/services.scss */
+      .containerServices .contactMe .textContactMe h2 {
+        color: white; }
+      /* line 46, ../../../../github/Portfolio/public/sass/services.scss */
+      .containerServices .contactMe .textContactMe p {
+        width: 70%; }
+      /* line 49, ../../../../github/Portfolio/public/sass/services.scss */
+      .containerServices .contactMe .textContactMe button {
+        margin-top: 30px;
+        padding: 10px 50px;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: white; }
+    /* line 60, ../../../../github/Portfolio/public/sass/services.scss */
+    .containerServices .contactMe .imageContact {
+      width: 30%; }
+      /* line 62, ../../../../github/Portfolio/public/sass/services.scss */
+      .containerServices .contactMe .imageContact img {
+        width: 250px;
+        animation: cellphoneAnimation 2s alternate infinite; }
+
+@keyframes cellphoneAnimation {
+  0% {
+    transform: translateY(0%); }
+  100% {
+    transform: translateY(-150px); } }
+
+/* line 1, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer {
+  background-color: #f8f8ff;
+  text-align: center; }
+  /* line 4, ../../../../github/Portfolio/public/sass/footer.scss */
+  .footer p {
+    padding: 10px; }
+  /* line 7, ../../../../github/Portfolio/public/sass/footer.scss */
+  .footer .copyright {
+    color: #39a1ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; }
+  /* line 12, ../../../../github/Portfolio/public/sass/footer.scss */
+  .footer .jsCopy {
+    color: #efd81d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; }
+  /* line 17, ../../../../github/Portfolio/public/sass/footer.scss */
+  .footer .htmlCopy {
+    color: #dc4d25;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; }
+  /* line 22, ../../../../github/Portfolio/public/sass/footer.scss */
+  .footer .sassCopy {
+    color: #c76395;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; }
 
 /*# sourceMappingURL=styless.css.map */

@@ -1,0 +1,76 @@
+.containerServices{
+    min-height: 100vh;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .subtitle{
+        margin: 10px 0px;
+    }
+    .containerContentServices{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .contentServices{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            svg{
+                width: 32px;
+            }
+        }
+    }
+    .contactMe{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 60%;
+        height: max-content;
+        padding: 20px;
+        margin: auto;
+        margin-top: 200px;
+        background-color: #39a1ff;
+        border-radius: 10px;
+        margin-bottom: 150px;
+        .textContactMe{
+            width: 70%;
+            text-align: justify;
+            color: white;
+            h2{
+                color: white;
+            }
+            p{
+                width: 70%;
+            }
+            button{
+                margin-top: 30px;
+                padding: 10px 50px;
+                border: 1px solid white;
+                background-color: transparent;
+                border-radius: 10px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 15px;
+                color: white;
+            }
+        }
+        .imageContact{
+            width: 30%;
+            img{
+                width: 250px;
+                animation: cellphoneAnimation 2s alternate infinite;
+            }
+        }
+    }
+}
+@keyframes cellphoneAnimation{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
