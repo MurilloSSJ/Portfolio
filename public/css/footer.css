@@ -1,29 +1,40 @@
 /* line 1, ../../../../github/Portfolio/public/sass/footer.scss */
 .footer {
   background-color: #f8f8ff;
-  text-align: center; }
-  /* line 4, ../../../../github/Portfolio/public/sass/footer.scss */
-  .footer p {
-    padding: 10px; }
-  /* line 7, ../../../../github/Portfolio/public/sass/footer.scss */
-  .footer .copyright {
-    color: #39a1ff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px; }
-  /* line 12, ../../../../github/Portfolio/public/sass/footer.scss */
-  .footer .jsCopy {
-    color: #efd81d;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; }
-  /* line 17, ../../../../github/Portfolio/public/sass/footer.scss */
-  .footer .htmlCopy {
-    color: #dc4d25;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; }
-  /* line 22, ../../../../github/Portfolio/public/sass/footer.scss */
-  .footer .sassCopy {
-    color: #c76395;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; }
+  text-align: center;
+}
+
+/* line 4, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer p {
+  padding: 10px;
+}
+
+/* line 7, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer .copyright {
+  color: #39a1ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+/* line 12, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer .jsCopy {
+  color: #efd81d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* line 17, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer .htmlCopy {
+  color: #dc4d25;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* line 22, ../../../../github/Portfolio/public/sass/footer.scss */
+.footer .sassCopy {
+  color: #c76395;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=footer.css.map */

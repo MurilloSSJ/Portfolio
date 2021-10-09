@@ -6,7 +6,8 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+}
 
 /* line 11, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent {
@@ -17,29 +18,36 @@
   width: 50%;
   color: #150035;
   font-family: 'Poppins', sans-serif;
-  text-align: left; }
+  text-align: left;
+}
 
 /* line 21, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
 
 /* line 24, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h2 {
   font-weight: 400;
   color: #150035b6;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+}
 
 /* line 29, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h2::after {
   content: '|';
   margin-left: 5px;
-  animation: piscMouse 0.5s infinite alternate; }
+  animation: piscMouse 0.5s infinite alternate;
+}
 
 @keyframes piscMouse {
   0%, 100% {
-    opacity: 1; }
+    opacity: 1;
+  }
   50% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 /* line 44, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button {
@@ -54,35 +62,43 @@
   color: #f8f8ff;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+}
 
 /* line 58, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button img {
   width: 32px;
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 /* line 62, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button:hover {
   box-shadow: 0px 0px 30px #39a1ff;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* line 66, ../../../../github/Portfolio/public/sass/header.scss */
 .headerImageContainer {
   padding-top: 10vh;
   width: 50%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 /* line 72, ../../../../github/Portfolio/public/sass/header.scss */
 .Heaven .headerImageContainer img {
   width: 500px;
-  animation: animate-image 2s infinite alternate; }
+  animation: animate-image 2s infinite alternate;
+}
 
 @keyframes animate-image {
   0% {
-    transform: translateY(-50px); }
+    transform: translateY(-50px);
+  }
   100% {
-    transform: translateY(0); } }
+    transform: translateY(0);
+  }
+}
 
 /* line 3, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer {
@@ -93,22 +109,26 @@
   align-items: center;
   text-align: justify;
   justify-content: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 /* line 14, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer h1 {
   text-align: center;
-  color: #150035; }
+  color: #150035;
+}
 
 /* line 18, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer p {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 /* line 21, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutContainer .aboutContentContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 /* line 26, ../../../../github/Portfolio/public/sass/about.scss */
 .titleBanner {
@@ -116,7 +136,8 @@
   background-color: black;
   width: 5%;
   margin: 0 auto;
-  animation: BannerSpinner 1s infinite alternate; }
+  animation: BannerSpinner 1s infinite alternate;
+}
 
 /* line 33, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout {
@@ -125,15 +146,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
-  /* line 40, ../../../../github/Portfolio/public/sass/about.scss */
-  .contentAbout .imgAboutPerfil {
-    width: 150px;
-    animation: animate-image 3s infinite alternate; }
+  justify-content: center;
+}
+
+/* line 40, ../../../../github/Portfolio/public/sass/about.scss */
+.contentAbout .imgAboutPerfil {
+  width: 150px;
+  animation: animate-image 3s infinite alternate;
+}
 
 /* line 45, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout p {
-  width: 60%; }
+  width: 60%;
+}
 
 /* line 48, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button {
@@ -148,12 +173,14 @@
   border: none;
   background-color: #39a1ff;
   color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 /* line 62, ../../../../github/Portfolio/public/sass/about.scss */
 .contentAbout button img {
   width: 32px;
-  margin-left: 15px; }
+  margin-left: 15px;
+}
 
 /* line 66, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer {
@@ -162,23 +189,27 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 /* line 74, ../../../../github/Portfolio/public/sass/about.scss */
 .aboutCardContainer img {
   width: 350px;
-  border-radius: 15px; }
+  border-radius: 15px;
+}
 
 /* line 78, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 /* line 84, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer div {
-  margin: 0px 20px; }
+  margin: 0px 20px;
+}
 
 /* line 87, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoTitle {
@@ -186,18 +217,23 @@
   display: block;
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 /* line 94, ../../../../github/Portfolio/public/sass/about.scss */
 .cardInformationContainer .aboutInfoName {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 @keyframes BannerSpinner {
   0% {
-    width: 5%; }
+    width: 5%;
+  }
   100% {
-    width: 0%; } }
+    width: 0%;
+  }
+}
 
 /*# sourceMappingURL=about.css.map */

@@ -4,73 +4,99 @@
   margin-top: 75px;
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  /* line 7, ../../../../github/Portfolio/public/sass/services.scss */
-  .containerServices .subtitle {
-    margin: 10px 0px; }
-  /* line 10, ../../../../github/Portfolio/public/sass/services.scss */
-  .containerServices .containerContentServices {
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-    /* line 16, ../../../../github/Portfolio/public/sass/services.scss */
-    .containerServices .containerContentServices .contentServices {
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center; }
-      /* line 22, ../../../../github/Portfolio/public/sass/services.scss */
-      .containerServices .containerContentServices .contentServices svg {
-        width: 32px; }
-  /* line 27, ../../../../github/Portfolio/public/sass/services.scss */
-  .containerServices .contactMe {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 60%;
-    height: max-content;
-    padding: 20px;
-    margin: auto;
-    margin-top: 200px;
-    background-color: #39a1ff;
-    border-radius: 10px;
-    margin-bottom: 150px; }
-    /* line 39, ../../../../github/Portfolio/public/sass/services.scss */
-    .containerServices .contactMe .textContactMe {
-      width: 70%;
-      text-align: justify;
-      color: white; }
-      /* line 43, ../../../../github/Portfolio/public/sass/services.scss */
-      .containerServices .contactMe .textContactMe h2 {
-        color: white; }
-      /* line 46, ../../../../github/Portfolio/public/sass/services.scss */
-      .containerServices .contactMe .textContactMe p {
-        width: 70%; }
-      /* line 49, ../../../../github/Portfolio/public/sass/services.scss */
-      .containerServices .contactMe .textContactMe button {
-        margin-top: 30px;
-        padding: 10px 50px;
-        border: 1px solid white;
-        background-color: transparent;
-        border-radius: 10px;
-        font-family: 'Poppins', sans-serif;
-        font-size: 15px;
-        color: white; }
-    /* line 60, ../../../../github/Portfolio/public/sass/services.scss */
-    .containerServices .contactMe .imageContact {
-      width: 30%; }
-      /* line 62, ../../../../github/Portfolio/public/sass/services.scss */
-      .containerServices .contactMe .imageContact img {
-        width: 250px;
-        animation: cellphoneAnimation 2s alternate infinite; }
+  align-items: center;
+}
+
+/* line 7, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .subtitle {
+  margin: 10px 0px;
+}
+
+/* line 10, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .containerContentServices {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 16, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .containerContentServices .contentServices {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* line 22, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .containerContentServices .contentServices svg {
+  width: 32px;
+}
+
+/* line 27, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  height: max-content;
+  padding: 20px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: #39a1ff;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+
+/* line 39, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .textContactMe {
+  width: 70%;
+  text-align: justify;
+  color: white;
+}
+
+/* line 43, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .textContactMe h2 {
+  color: white;
+}
+
+/* line 46, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .textContactMe p {
+  width: 70%;
+}
+
+/* line 49, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .textContactMe button {
+  margin-top: 30px;
+  padding: 10px 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/* line 60, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .imageContact {
+  width: 30%;
+}
+
+/* line 62, ../../../../github/Portfolio/public/sass/services.scss */
+.containerServices .contactMe .imageContact img {
+  width: 250px;
+  animation: cellphoneAnimation 2s alternate infinite;
+}
 
 @keyframes cellphoneAnimation {
   0% {
-    transform: translateY(0%); }
+    transform: translateY(0%);
+  }
   100% {
-    transform: translateY(150px); } }
+    transform: translateY(-150px);
+  }
+}
 
 /*# sourceMappingURL=services.css.map */

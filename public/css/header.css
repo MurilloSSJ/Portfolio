@@ -6,7 +6,8 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+}
 
 /* line 11, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent {
@@ -17,29 +18,36 @@
   width: 50%;
   color: #150035;
   font-family: 'Poppins', sans-serif;
-  text-align: left; }
+  text-align: left;
+}
 
 /* line 21, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h1 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
 
 /* line 24, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h2 {
   font-weight: 400;
   color: #150035b6;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+}
 
 /* line 29, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent h2::after {
   content: '|';
   margin-left: 5px;
-  animation: piscMouse 0.5s infinite alternate; }
+  animation: piscMouse 0.5s infinite alternate;
+}
 
 @keyframes piscMouse {
   0%, 100% {
-    opacity: 1; }
+    opacity: 1;
+  }
   50% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 /* line 44, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button {
@@ -54,34 +62,42 @@
   color: #f8f8ff;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+}
 
 /* line 58, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button img {
   width: 32px;
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 /* line 62, ../../../../github/Portfolio/public/sass/header.scss */
 .headerTextContent button:hover {
   box-shadow: 0px 0px 30px #39a1ff;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* line 66, ../../../../github/Portfolio/public/sass/header.scss */
 .headerImageContainer {
   padding-top: 10vh;
   width: 50%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 /* line 72, ../../../../github/Portfolio/public/sass/header.scss */
 .Heaven .headerImageContainer img {
   width: 500px;
-  animation: animate-image 2s infinite alternate; }
+  animation: animate-image 2s infinite alternate;
+}
 
 @keyframes animate-image {
   0% {
-    transform: translateY(-50px); }
+    transform: translateY(-50px);
+  }
   100% {
-    transform: translateY(0); } }
+    transform: translateY(0);
+  }
+}
 
 /*# sourceMappingURL=header.css.map */

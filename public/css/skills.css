@@ -2,11 +2,13 @@
 .aboutContainer p {
   margin: 5px 0px;
   margin-bottom: 15px;
-  color: #150035; }
+  color: #150035;
+}
 
 /* line 8, ../../../../github/Portfolio/public/sass/skills.scss */
 .skillsContainer {
-  min-height: max-content; }
+  min-height: max-content;
+}
 
 /* line 11, ../../../../github/Portfolio/public/sass/skills.scss */
 .subContainerSkills {
@@ -15,151 +17,217 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: center; }
-  /* line 18, ../../../../github/Portfolio/public/sass/skills.scss */
-  .subContainerSkills .containerSkills {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center; }
-    /* line 23, ../../../../github/Portfolio/public/sass/skills.scss */
-    .subContainerSkills .containerSkills .skillsHeader {
-      width: 350px;
-      padding: 30px; }
-      /* line 24, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsHeader .arrowTransform {
-        transform: rotate(-180deg); }
-      /* line 29, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsHeader .iconSkillsInline {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; }
-        /* line 33, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsHeader .iconSkillsInline img {
-          transition: .4s; }
-      /* line 37, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsHeader img {
-        width: 32px;
-        display: inline-block; }
-      /* line 40, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsHeader span {
-        display: inline-block; }
-    /* line 44, ../../../../github/Portfolio/public/sass/skills.scss */
-    .subContainerSkills .containerSkills .skillsHeader:hover {
-      background-color: #f8f8ff;
-      cursor: pointer; }
-    /* line 48, ../../../../github/Portfolio/public/sass/skills.scss */
-    .subContainerSkills .containerSkills .skillsBody {
-      overflow: hidden;
-      max-height: max-content;
-      transition: max-height 1s ease-in-out; }
-      /* line 53, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar {
-        background-color: #a3d4ff;
-        border-radius: .25rem; }
-        /* line 56, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .skillsPercentBar {
-          height: 5px;
-          border-radius: .25rem;
-          display: block;
-          background-color: #39a1ff; }
-        /* line 62, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .htmlBar {
-          width: 90%; }
-        /* line 65, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .jsBar {
-          width: 80%; }
-        /* line 68, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .reactBar {
-          width: 50%; }
-        /* line 71, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .nodeBar {
-          width: 60%; }
-        /* line 74, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .expressBar {
-          width: 80%; }
-        /* line 77, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .mongoBar {
-          width: 70%; }
-        /* line 80, ../../../../github/Portfolio/public/sass/skills.scss */
-        .subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .illustratorBar {
-          width: 20%; }
-      /* line 84, ../../../../github/Portfolio/public/sass/skills.scss */
-      .subContainerSkills .containerSkills .skillsBody .skillsData .skillsStats {
-        width: 250px; }
-    /* line 89, ../../../../github/Portfolio/public/sass/skills.scss */
-    .subContainerSkills .containerSkills .closeSkills {
-      max-height: 0 !important;
-      pointer-events: none; }
+  justify-content: center;
+}
+
+/* line 18, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+/* line 23, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader {
+  width: 350px;
+  padding: 30px;
+}
+
+/* line 24, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader .arrowTransform {
+  transform: rotate(-180deg);
+}
+
+/* line 29, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader .iconSkillsInline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 33, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader .iconSkillsInline img {
+  transition: .4s;
+}
+
+/* line 37, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader img {
+  width: 32px;
+  display: inline-block;
+}
+
+/* line 40, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader span {
+  display: inline-block;
+}
+
+/* line 44, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsHeader:hover {
+  background-color: #f8f8ff;
+  cursor: pointer;
+}
+
+/* line 48, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody {
+  overflow: hidden;
+  max-height: max-content;
+  transition: max-height 1s ease-in-out;
+}
+
+/* line 53, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar {
+  background-color: #a3d4ff;
+  border-radius: .25rem;
+}
+
+/* line 56, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .skillsPercentBar {
+  height: 5px;
+  border-radius: .25rem;
+  display: block;
+  background-color: #39a1ff;
+}
+
+/* line 62, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .htmlBar {
+  width: 90%;
+}
+
+/* line 65, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .jsBar {
+  width: 80%;
+}
+
+/* line 68, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .reactBar {
+  width: 50%;
+}
+
+/* line 71, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .nodeBar {
+  width: 60%;
+}
+
+/* line 74, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .expressBar {
+  width: 80%;
+}
+
+/* line 77, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .mongoBar {
+  width: 70%;
+}
+
+/* line 80, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsBar .illustratorBar {
+  width: 20%;
+}
+
+/* line 84, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .skillsBody .skillsData .skillsStats {
+  width: 250px;
+}
+
+/* line 89, ../../../../github/Portfolio/public/sass/skills.scss */
+.subContainerSkills .containerSkills .closeSkills {
+  max-height: 0 !important;
+  pointer-events: none;
+}
 
 /* line 95, ../../../../github/Portfolio/public/sass/skills.scss */
 .qualificationSection {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
-  /* line 99, ../../../../github/Portfolio/public/sass/skills.scss */
-  .qualificationSection .containerQualification {
-    display: none; }
-  /* line 102, ../../../../github/Portfolio/public/sass/skills.scss */
-  .qualificationSection .controllerQualifications {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif; }
-    /* line 107, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .controllerQualifications svg {
-      margin-right: 10px;
-      width: 32px; }
-    /* line 112, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .controllerQualifications div {
-      padding: 20px 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-bottom: 70px;
-      font-size: 1rem; }
-    /* line 122, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .controllerQualifications div:hover {
-      cursor: pointer;
-      color: #39a1ff; }
-    /* line 126, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .controllerQualifications .activeControllerQualification {
-      border-radius: 10px;
-      background: #39a1ff;
-      color: white;
-      pointer-events: none; }
-      /* line 131, ../../../../github/Portfolio/public/sass/skills.scss */
-      .qualificationSection .controllerQualifications .activeControllerQualification svg path {
-        fill: #f8f8ff; }
-  /* line 138, ../../../../github/Portfolio/public/sass/skills.scss */
-  .qualificationSection .contentQualificationData {
-    text-align: right;
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem; }
-    /* line 143, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .contentQualificationData .qualificationCircle {
-      display: inline-block;
-      width: 13px;
-      height: 13px;
-      background-color: #39a1ff;
-      border-radius: 50%; }
-    /* line 150, ../../../../github/Portfolio/public/sass/skills.scss */
-    .qualificationSection .contentQualificationData .qualificationLine {
-      display: block;
-      width: 1px;
-      height: 100%;
-      background-color: #39a1ff;
-      transform: translate(6px, -7px); }
-  /* line 158, ../../../../github/Portfolio/public/sass/skills.scss */
-  .qualificationSection .invertData {
-    text-align: left; }
-  /* line 161, ../../../../github/Portfolio/public/sass/skills.scss */
-  .qualificationSection .dataActive {
-    display: block;
-    margin-bottom: 50px; }
+  justify-content: center;
+}
+
+/* line 99, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .containerQualification {
+  display: none;
+}
+
+/* line 102, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 107, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications svg {
+  margin-right: 10px;
+  width: 32px;
+}
+
+/* line 112, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications div {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 70px;
+  font-size: 1rem;
+}
+
+/* line 122, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications div:hover {
+  cursor: pointer;
+  color: #39a1ff;
+}
+
+/* line 126, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications .activeControllerQualification {
+  border-radius: 10px;
+  background: #39a1ff;
+  color: white;
+  pointer-events: none;
+}
+
+/* line 131, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .controllerQualifications .activeControllerQualification svg path {
+  fill: #f8f8ff;
+}
+
+/* line 138, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .contentQualificationData {
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+/* line 143, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .contentQualificationData .qualificationCircle {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #39a1ff;
+  border-radius: 50%;
+}
+
+/* line 150, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .contentQualificationData .qualificationLine {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #39a1ff;
+  transform: translate(6px, -7px);
+}
+
+/* line 158, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .invertData {
+  text-align: left;
+}
+
+/* line 161, ../../../../github/Portfolio/public/sass/skills.scss */
+.qualificationSection .dataActive {
+  display: block;
+  margin-bottom: 50px;
+}
 
 /*# sourceMappingURL=skills.css.map */
