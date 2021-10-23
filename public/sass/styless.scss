@@ -31,6 +31,12 @@ span{
 h3{
     font-family: 'Poppins', sans-serif;
 }
+@media screen and (max-width:560px){
+    h1{
+        font-size: 1.7rem
+    }
+}
+
 @import 'navMenu.scss';
 @import 'about.scss';
 @import 'skills.scss';

@@ -25,3 +25,12 @@
 .navMenu li{
     padding: 10px 30px;
 }
+
+@media screen and (max-width:960px){
+    .containerNavMenu{
+        flex-direction: column;
+        .navMenu{
+            display: none;
+        }
+    }
+}

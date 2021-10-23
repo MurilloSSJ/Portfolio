@@ -104,3 +104,18 @@
         width: 0%;
     }
 }
+
+@media screen and (max-width:560px){
+    .aboutContainer{
+        .aboutContentContainer{
+            flex-direction: column-reverse;
+            align-items: center;
+            .contentAbout{
+                width: 100%;
+                p{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

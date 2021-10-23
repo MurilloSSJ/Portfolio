@@ -230,4 +230,24 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 560px) {
+  /* line 168, ../../../../github/Portfolio/public/sass/skills.scss */
+  .subContainerSkills {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* line 171, ../../../../github/Portfolio/public/sass/skills.scss */
+  .subContainerSkills .containerSkills {
+    width: 100%;
+  }
+  /* line 175, ../../../../github/Portfolio/public/sass/skills.scss */
+  .controllerQualifications {
+    flex-direction: column !important;
+  }
+  /* line 177, ../../../../github/Portfolio/public/sass/skills.scss */
+  .controllerQualifications div {
+    margin: none;
+  }
+}
+
 /*# sourceMappingURL=skills.css.map */

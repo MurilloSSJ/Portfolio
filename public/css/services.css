@@ -99,4 +99,20 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  /* line 79, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices {
+    margin-top: 0px;
+  }
+  /* line 81, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .containerContentServices {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 84, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .containerContentServices .contentServices {
+    margin-top: 60px;
+  }
+}
+
 /*# sourceMappingURL=services.css.map */

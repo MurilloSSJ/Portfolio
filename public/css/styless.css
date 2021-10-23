@@ -49,6 +49,13 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 560px) {
+  /* line 35, ../../../../github/Portfolio/public/sass/styless.scss */
+  h1 {
+    font-size: 1.7rem;
+  }
+}
+
 /* line 1, ../../../../github/Portfolio/public/sass/navMenu.scss */
 .containerNavMenu {
   width: 100%;
@@ -82,6 +89,17 @@ h3 {
 /* line 25, ../../../../github/Portfolio/public/sass/navMenu.scss */
 .navMenu li {
   padding: 10px 30px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 30, ../../../../github/Portfolio/public/sass/navMenu.scss */
+  .containerNavMenu {
+    flex-direction: column;
+  }
+  /* line 32, ../../../../github/Portfolio/public/sass/navMenu.scss */
+  .containerNavMenu .navMenu {
+    display: none;
+  }
 }
 
 /* line 2, ../../../../github/Portfolio/public/sass/header.scss */
@@ -183,6 +201,34 @@ h3 {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /* line 85, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
+  /* line 89, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent {
+    width: 90%;
+    margin-left: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  /* line 94, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent h1 {
+    font-size: 1.7rem;
+  }
+  /* line 97, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent h2 {
+    font-size: 1.2rem;
+  }
+  /* line 102, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerImageContainer img {
+    width: 300px;
   }
 }
 
@@ -319,6 +365,22 @@ h3 {
   }
   100% {
     width: 0%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /* line 110, ../../../../github/Portfolio/public/sass/about.scss */
+  .aboutContainer .aboutContentContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  /* line 113, ../../../../github/Portfolio/public/sass/about.scss */
+  .aboutContainer .aboutContentContainer .contentAbout {
+    width: 100%;
+  }
+  /* line 115, ../../../../github/Portfolio/public/sass/about.scss */
+  .aboutContainer .aboutContentContainer .contentAbout p {
+    width: 80%;
   }
 }
 
@@ -554,6 +616,26 @@ h3 {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 560px) {
+  /* line 168, ../../../../github/Portfolio/public/sass/skills.scss */
+  .subContainerSkills {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* line 171, ../../../../github/Portfolio/public/sass/skills.scss */
+  .subContainerSkills .containerSkills {
+    width: 100%;
+  }
+  /* line 175, ../../../../github/Portfolio/public/sass/skills.scss */
+  .controllerQualifications {
+    flex-direction: column !important;
+  }
+  /* line 177, ../../../../github/Portfolio/public/sass/skills.scss */
+  .controllerQualifications div {
+    margin: none;
+  }
+}
+
 /* line 1, ../../../../github/Portfolio/public/sass/services.scss */
 .containerServices {
   min-height: 100vh;
@@ -652,6 +734,22 @@ h3 {
   }
   100% {
     transform: translateY(-150px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /* line 79, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices {
+    margin-top: 0px;
+  }
+  /* line 81, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .containerContentServices {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 84, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .containerContentServices .contentServices {
+    margin-top: 60px;
   }
 }
 

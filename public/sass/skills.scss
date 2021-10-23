@@ -163,3 +163,19 @@
         margin-bottom: 50px;
     }
 }
+
+@media screen and (max-width:560px){
+    .subContainerSkills{
+        flex-direction: column;
+        width: 100%;
+        .containerSkills{
+            width: 100%;
+        }
+    }
+    .controllerQualifications{
+        flex-direction: column !important;
+        div{
+            margin: none;
+        }
+    }
+}

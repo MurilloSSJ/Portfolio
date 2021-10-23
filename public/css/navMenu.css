@@ -33,4 +33,15 @@
   padding: 10px 30px;
 }
 
+@media screen and (max-width: 960px) {
+  /* line 30, ../../../../github/Portfolio/public/sass/navMenu.scss */
+  .containerNavMenu {
+    flex-direction: column;
+  }
+  /* line 32, ../../../../github/Portfolio/public/sass/navMenu.scss */
+  .containerNavMenu .navMenu {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=navMenu.css.map */

@@ -100,4 +100,32 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  /* line 85, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
+  /* line 89, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent {
+    width: 90%;
+    margin-left: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  /* line 94, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent h1 {
+    font-size: 1.7rem;
+  }
+  /* line 97, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerTextContent h2 {
+    font-size: 1.2rem;
+  }
+  /* line 102, ../../../../github/Portfolio/public/sass/header.scss */
+  .Heaven .headerImageContainer img {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */
