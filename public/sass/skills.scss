@@ -164,7 +164,7 @@
     }
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:800px){
     .subContainerSkills{
         flex-direction: column;
         width: 100%;
@@ -177,5 +177,9 @@
         div{
             margin: none;
         }
+    }
+    .containerQualification{
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }

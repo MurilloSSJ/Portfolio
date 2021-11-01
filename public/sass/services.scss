@@ -75,7 +75,7 @@
     }
 }
 
-@media screen  and (max-width:560px){
+@media screen  and (max-width:800px){
     .containerServices{
         margin-top: 0px;
         .containerContentServices{
@@ -83,6 +83,27 @@
             align-items: center;
             .contentServices{
                 margin-top: 60px;
+            }
+        }
+        .contactMe{
+            flex-direction: column;
+            width: 90%;
+            
+            .textContactMe{
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                p{
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+            .imageContact{
+                img{
+                    display: none;
+                    
+                }
+                
             }
         }
     }

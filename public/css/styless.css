@@ -204,7 +204,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 85, ../../../../github/Portfolio/public/sass/header.scss */
   .Heaven {
     flex-direction: column-reverse;
@@ -368,17 +368,18 @@ h3 {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 110, ../../../../github/Portfolio/public/sass/about.scss */
   .aboutContainer .aboutContentContainer {
     flex-direction: column-reverse;
     align-items: center;
+    text-align: center;
   }
-  /* line 113, ../../../../github/Portfolio/public/sass/about.scss */
+  /* line 114, ../../../../github/Portfolio/public/sass/about.scss */
   .aboutContainer .aboutContentContainer .contentAbout {
     width: 100%;
   }
-  /* line 115, ../../../../github/Portfolio/public/sass/about.scss */
+  /* line 116, ../../../../github/Portfolio/public/sass/about.scss */
   .aboutContainer .aboutContentContainer .contentAbout p {
     width: 80%;
   }
@@ -616,7 +617,7 @@ h3 {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 168, ../../../../github/Portfolio/public/sass/skills.scss */
   .subContainerSkills {
     flex-direction: column;
@@ -633,6 +634,11 @@ h3 {
   /* line 177, ../../../../github/Portfolio/public/sass/skills.scss */
   .controllerQualifications div {
     margin: none;
+  }
+  /* line 181, ../../../../github/Portfolio/public/sass/skills.scss */
+  .containerQualification {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -737,7 +743,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 79, ../../../../github/Portfolio/public/sass/services.scss */
   .containerServices {
     margin-top: 0px;
@@ -750,6 +756,26 @@ h3 {
   /* line 84, ../../../../github/Portfolio/public/sass/services.scss */
   .containerServices .containerContentServices .contentServices {
     margin-top: 60px;
+  }
+  /* line 88, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe {
+    flex-direction: column;
+    width: 90%;
+  }
+  /* line 92, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .textContactMe {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  /* line 96, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .textContactMe p {
+    width: 80%;
+    margin: auto;
+  }
+  /* line 102, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .imageContact img {
+    display: none;
   }
 }
 

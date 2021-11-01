@@ -99,7 +99,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 79, ../../../../github/Portfolio/public/sass/services.scss */
   .containerServices {
     margin-top: 0px;
@@ -112,6 +112,26 @@
   /* line 84, ../../../../github/Portfolio/public/sass/services.scss */
   .containerServices .containerContentServices .contentServices {
     margin-top: 60px;
+  }
+  /* line 88, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe {
+    flex-direction: column;
+    width: 90%;
+  }
+  /* line 92, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .textContactMe {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  /* line 96, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .textContactMe p {
+    width: 80%;
+    margin: auto;
+  }
+  /* line 102, ../../../../github/Portfolio/public/sass/services.scss */
+  .containerServices .contactMe .imageContact img {
+    display: none;
   }
 }
 

@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   /* line 85, ../../../../github/Portfolio/public/sass/header.scss */
   .Heaven {
     flex-direction: column-reverse;

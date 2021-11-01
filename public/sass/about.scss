@@ -105,11 +105,12 @@
     }
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:800px){
     .aboutContainer{
         .aboutContentContainer{
             flex-direction: column-reverse;
             align-items: center;
+            text-align: center;
             .contentAbout{
                 width: 100%;
                 p{
